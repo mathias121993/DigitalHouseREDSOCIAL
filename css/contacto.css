@@ -1,0 +1,73 @@
+.ol1 a{
+  color: #0b9882;
+}
+
+.ol1{
+  text-align: right;
+  margin-right: 125px;
+}
+
+h1{
+  margin-left: 15px;
+}
+
+iframe{
+  width: 80%;
+  margin-right: 125px;
+  margin-bottom: 50px;
+}
+
+h2{
+  color: white;
+  margin-left: 40px;
+}
+
+h3{
+  color: white;
+  margin-left: 380px;
+}
+
+h4{
+  color: #0b9882;
+  text-align: center;
+}
+
+ol li{
+  list-style-type: none;
+  text-align: center;
+}
+
+li a{
+  color: white;
+}
+
+h5{
+  color: white;
+  margin-left: 30px;
+}
+
+label{
+  color: #0b9882;
+  text-align: center;
+  margin-left: 60px;
+}
+
+p{
+  color: white;
+}
+
+#enviar{
+  background-color: #0b9882;
+  color: white;
+  margin-left: 60px;
+}
+
+#resetear{
+  background-color: #0b9882;
+  color: white;
+}
+
+button{
+  width: 8%;
+  margin-left: 60px;
+}

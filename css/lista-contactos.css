@@ -1,0 +1,110 @@
+/* global */
+* { margin: 0px; padding: 0px; }
+/* cuerpo */
+body {
+	background: #f0f1f2;
+	font:12px "Open Sans", sans-serif;
+}
+/* chatbox contiene todo el contenedor de los contactos*/
+#chatbox{
+	width:290px;
+	background:#fff;
+	border-radius:8px;
+	overflow:hidden;
+	height:484px;
+	position:sticky;
+	top:100px;
+	left:78%;
+	margin-left:-155px;
+}
+/* friendlist contiene toda la lista de contactos */
+#friendslist{
+	position:absolute;
+	top:0;
+	left:0;
+	width:290px;
+	height:484px;
+}
+/* menu principal pestaña de contacto */
+#topmenu{
+	height:69px;
+	width:290px;
+	border-bottom:1px solid #d8dfe3;
+}
+#topmenu span{
+	float:left;
+	width: 96px;
+    height: 70px;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/top-menu.png") -3px -118px no-repeat;
+}
+#topmenu span.friends{margin-bottom:-1px;}
+.friend{
+	height:70px;
+	border-bottom:1px solid #e7ebee;
+	position:relative;
+}
+/* imagenes de clase friend */
+.friend img{
+	width:40px;
+	border-radius:50%;
+	margin:15px;
+	float:left;
+}
+.floating Img{
+	width:40px;
+	border-radius:50%;
+	position:absolute;
+	top:0;
+	left:12px;
+	border:3px solid #fff;
+}
+.friend p{
+	padding:15px 0 0 0;
+	float:left;
+	width:220px;
+}
+.friend p strong{
+  font-weight:600;
+  font-size:15px;
+	color:#597a96;
+
+}
+.friend p span{
+	font-size:13px;
+	font-weight:400;
+	color:#aab8c2;
+}
+.friend .status{
+	background:#0b9882;
+	border-radius:50%;
+	width:9px;
+	height:9px;
+	position:absolute;
+	top:31px;
+	right:17px;
+}
+.friend .status.away{background:#ffce54;}
+.friend .status.inactive{background:#eaeef0;}
+/* buscador */
+#search{
+	background:#e3e9ed url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/search.png") -11px 0 no-repeat;
+	height:60px;
+	width:290px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+/* campo de búsqueda */
+#searchfield{
+	background:#e3e9ed;
+	margin:21px 0 0 55px;
+	border:none;
+	padding:0;
+	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+	font-weight:400px;
+	color:#8198ac;
+}
+#searchfield:focus{
+	 outline: 0;
+}
